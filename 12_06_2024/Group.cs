@@ -69,6 +69,11 @@ namespace _12_06_2024
         {
             return Students;
         }
+
+        public void ShowInfo()
+        {
+            Console.WriteLine($"GroupNo: {GroupNo}, student limit {StudentLimit}");
+        }
     }
 
 
